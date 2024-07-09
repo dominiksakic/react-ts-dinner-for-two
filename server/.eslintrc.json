@@ -1,17 +1,17 @@
 {
-    "env": {
-      "es2021": true
-    },
-    "extends": [
-      "eslint:recommended", 
-      "plugin:@typescript-eslint/recommended-requiring-type-checking"
-    ],
-    "parserOptions": {
-      "parser": "@typescript-eslint/parser",
-      "ecmaVersion": "latest",
-      "project": "./tsconfig.json"
-    },
-    "rules": {
-      "@typescript-eslint/no-explicit-any": "error"
-    }
+  "env": {
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "ecmaVersion": "latest",
+    "project": "./server/tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "error"
   }
+}
