@@ -28,7 +28,7 @@ app.post("/login", (req: Request, res: Response, next: NextFunction) => {
       throw new Error("Invalid user login data");
     }
   } catch (error) {
-    next(error);
+    next(error);//fix this as well;
   }
 });
 
