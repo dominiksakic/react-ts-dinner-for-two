@@ -1,0 +1,3 @@
+interface ComponentProps {
+  classname: string;
+}
