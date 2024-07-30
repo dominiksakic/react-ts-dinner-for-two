@@ -1,7 +1,10 @@
 import React from "react";
+import SignIn from "../components/SignIn";
 
 const LoginComponent: React.FC = () => {
-  return <p>Login goes here!</p>;
+    return(
+        <SignIn/>
+    )
 };
 
 export default LoginComponent;
